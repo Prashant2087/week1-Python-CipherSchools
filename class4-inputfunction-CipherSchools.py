@@ -1,15 +1,30 @@
-a=input()
-print(a)
-type(a)
+print(5+5)
+print(10-5)
+print(10/3)
+print(10//3)
+print(10%3)
+print(2**3)
+print("jatin"*6)
+print("jatin"+" katyal")
 
-#typecasting
-a=15
-str(a)
 
-int('1234')
-float("1.5")
+#comparison 
+print(1==2)
+print(1<2)
+print('ab'<'z')
+   
 
-a='A'
-isinstance(a,object)
-a=65
-isinstance(a,object)
+
+#LOGICAL
+print(True and False)
+print(True or False)
+print(True or 1)
+print(1 and 0)
+print(1 and 5)
+bool(0)
+
+print(1.6 or "")
+print("" or 2.5)
+bool({1,2,3})
+print("" and 0)
+print(112 and "")
